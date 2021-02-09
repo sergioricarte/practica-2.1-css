@@ -1,0 +1,60 @@
+p:first-child:first-letter{
+    font-size: 80px;
+    color: black;
+}
+p.primeraletra{
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+}
+
+
+p.hover:hover{
+    color: blue;
+    background-color: yellow;
+}
+p.hover{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    
+}
+
+body.fondo{
+    background-color: rgb(174, 224, 243);
+}
+p.firstline::first-line{
+    color: red;
+    
+}
+p.firstline2::first-line{
+    color: red;
+}
+hr.colorhr{
+    color:white
+}
+a.apple{
+    background-color: blue;
+    color: white;
+}
+a.pixar{
+    background-color: white;
+    color:blue;
+}
+a.iphone{
+    background-color: white;
+    color:blue;
+}
+
+p.productos::before{
+    content: counter(cuenta-productos);
+    counter-increment: cuenta-productos;
+}
+img.imagen{
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+h1.primeraletra{
+    text-transform: capitalize;
+}
